@@ -1,0 +1,262 @@
+* {
+  font-family: "Chakra Petch", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.body{
+  background-color: #f9dbdb;
+}
+
+.adminHeader {
+  margin: 3px 3px 0;
+  width: 100%;
+  height: 11vh;
+  background: #3366FF;
+  box-shadow: 0 0 10px #12010d;
+  border-radius: 5px;
+}
+.adminHeader .headLeft{
+  float: left;
+  display: flex;
+  width: 40%;
+  align-items: center;
+  margin-top: 0.1rem;
+}
+.adminHeader img {
+  width: 40px;
+  height: 40px;
+  margin: 2px 10px;
+  background-size: 2% 2%;
+  background-position: center;
+  text-align: center;
+  border-radius: 50%;
+}
+.adminHeader .headLeft .title {
+  color: white;
+  margin-top: 1px;
+  margin-left: 5px;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+.adminHeader .headLeft p {
+  font-size: 12pt;
+  font-weight: bold;
+}
+.adminHeader .headRight {
+  float: right;
+  display: inline;
+  width: 55%;
+}
+.adminHeader .headRight p {
+  margin: 3px;
+  font-size: 10pt;
+  color: white;
+  text-align: right;
+  padding-top: 5px;
+  margin-right: 10px;
+}
+.adminHeader ul.menubar {
+  margin: 6px;
+  font-size: 12pt;
+  list-style: none;
+  float: right;
+}
+.adminHeader ul.menubar li {
+  float: left;
+  margin-right: 10px;
+  color: white;
+}
+.adminHeader ul.menubar li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  transition: all 0.3s ease;
+}
+.adminHeader ul.menubar li a:hover {
+  color: rgb(11, 11, 11);
+  font-weight: bolder;
+  border-bottom: 2px solid #02071f;
+  padding-bottom: 0px;
+}
+.main{
+  width: 70%;
+  height: 70vh;
+  margin: 10px auto;
+  background-color: rgb(255, 255, 255);
+}
+.topic {
+  display: inline;
+  margin: 5px 5px;
+}
+.topic h3 {
+  float: left;
+  font-size: 18pt;
+  margin: 0;
+  padding: 10px;
+  border: 5px;
+}
+.topic button{
+  float: right;
+  font-size: 11pt;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px;
+  width: 200px;
+  margin: 10px;
+}
+.work {
+  width: 100%;
+  height: 75vh;
+  overflow: auto;
+  margin: auto;
+}
+.work th{
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+}
+.work td{
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+}
+.work td.name{
+  float: left;
+}
+.work .memberTable{
+  margin: 5px 5px;
+  display: inline-table;
+  background-color: rgb(179, 240, 240);
+  border: 2px solid rgb(246, 246, 246);
+  border-color: white;
+  width: 98%;
+  overflow: auto;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 12pt;
+}
+.work .memberTable td{
+  border: 2px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.work .memberTable th{
+  border-bottom: 1px solid;
+  padding: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffe5e5;
+}
+
+table th, table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #a264f9;
+}
+
+table th {
+  background-color: #636163;
+  color: white;
+}
+
+table td a {
+  color: #195ae4;
+  text-decoration: none;
+}
+
+table td a:hover {
+  text-decoration: underline;
+}
+
+.add-member {
+  background-color: #43a047;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.add-member:hover {
+  background-color: #388e3c;
+}
+
+.info_Member{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  display: none;
+  backdrop-filter: blur(2px);
+}
+.info_Detail{
+  width: 60%;
+  height: 80vh;
+  background-color: #f293e2;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+.info_Detail .infoLeft{
+  float: left;
+  width: 55%;
+  margin-left: 10px;
+  /* border: 2px solid black; */
+  text-align: right;
+}
+.info_Detail h4{
+  font-weight: bold;
+}
+
+.info_Detail .infoLeft label{
+  font-size: 12pt;
+  font-weight: bold;
+  color: black;
+  width: 100px;
+}
+.info_Detail .infoLeft input,textarea{
+  color: black;
+  border-radius: 5px;
+  border: none;
+  margin: 5px;
+  width: 100%;
+}
+
+.info_Detail .infoRight{
+  float: right;
+  width: 40%;
+  /* border: 2px solid black; */
+  margin-right: 10px;
+  text-align: center;
+}
+.info_Detail .infoRight p {
+  font-weight: bold;
+
+}
+.info_Detail .infoRight img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  text-align: center;
+}
+.info_Detail .infoRight btn btn-success{
+  margin-top: 30px;
+}
+.info_Detail .infoRight .btImg{
+  width: 16vw;
+  background-color: black;
+  border-radius: 12px;
+  color: white;
+}

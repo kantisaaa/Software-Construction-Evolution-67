@@ -1,0 +1,73 @@
+* {
+    font-family: "Chakra Petch", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#a4d7f7 50%,#6eb0f3 50%);
+  }
+.main{
+    width: 70%;
+    height: 60vh;
+    background-color: white;
+    border-radius: 20px;
+  }
+.Left {
+    width: 45%;
+    margin: 10px 0 10px 40px;
+    float: left;
+  }
+.main .Left .htxt {
+    font-weight: bolder;
+    font-size: 30pt;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+.main .Left .itxt{
+    width: 90%;
+    border-radius: 5px;
+    background-color: #f0b4e2;
+    font-size: 15pt;
+    border: none;
+    padding: 5px;
+  }
+.main .Left .txt1 {
+    font-size: 15pt;
+    margin-top: 15px;
+  }
+.main .Left button{
+  width: 90%;
+  font-size: 15pt;
+  font-weight: bold;
+  color: white;
+  background: rgb(0, 255, 98);
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 30px;
+}
+.main .Left .txt2{
+  font-size: 14pt;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.Right {
+  width: 49%;
+  margin: 10px auto;
+  float: right;
+  text-align: center;
+  }
+.main .Right img{
+  width: 85%;
+  height: 55vh;
+  border-radius: 30px;
+  align-items: center;
+  box-shadow: 5px 5px #bebbbb;
+}
